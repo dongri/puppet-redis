@@ -8,7 +8,7 @@ describe "redis::config" do
     'datadir'      => '/test/boxen/data/redis',
     'logdir'       => '/test/boxen/log/redis',
     'host'         => '127.0.0.1',
-    'port'         => '16379',
+    'port'         => '6379',
     'pidfile'      => '/test/boxen/data/redis/pid',
     'executable'   => '/test/boxen/homebrew/bin/redis-server',
     'config_values' => { 'port' => '6379', 'daemonize' => 'no' },
